@@ -29,12 +29,11 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-
+![Capture](https://github.com/lenardatthebreakwater/newsletter-signup-with-success-message/assets/142602437/b3646581-5ab1-4635-aeb5-b87139ecef14)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://newsletter-signup-with-success-message.onrender.com/)
 
 ## My process
 
