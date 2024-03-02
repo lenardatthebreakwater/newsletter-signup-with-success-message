@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://newsletter-signup-with-success-message.onrender.com/)
+- Live Site URL: [https://newsletter-signup-with-success-message.onrender.com/](https://newsletter-signup-with-success-message.onrender.com/)
 
 ## My process
 
