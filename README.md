@@ -50,7 +50,7 @@ I learned how to use HTML5's new dialog tag for easily creating modals
 
 ### Useful resources
 
-- [HTML Dialog Element](https://blog.webdevsimplified.com/2023-04/html-dialog/) - This helped me learn hot to use the new HTML dialog element
+- [HTML Dialog Element](https://blog.webdevsimplified.com/2023-04/html-dialog/) - This helped me learn how to use the new HTML dialog element
 
 ## Author
 
