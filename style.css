@@ -1,36 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-* { font-family: Roboto; font-size: 15px; font-weight: 400; }
-body { min-height: 100vh; background-color: hsl(234, 29%, 20%); overflow-y: clip; }
+* {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+}
 
-.title { margin: 20px; font-size: 40px; font-weight: 700; color: hsl(234, 29%, 20%); }
-.styled-btn { color: hsl(0, 0%, 100%); padding: 15px 30px; background-color: hsl(234, 29%, 20%); border-radius: 10px; cursor: pointer; border: none; }
-.styled-btn:hover { background-color: hsl(4, 100%, 67%); }
+body {
+  min-height: 100vh;
+  background-color: hsl(234, 29%, 20%);
+  overflow-y: clip;
+}
 
-.container { width: 720px; display: flex; background-color: hsl(0, 0%, 100%); margin: 60px auto; padding: 25px; border-radius: 15px; }
+.title {
+  margin: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(234, 29%, 20%);
+}
+
+.styled-btn {
+  color: hsl(0, 0%, 100%);
+  padding: 15px 30px;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.styled-btn:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+
+.container {
+  width: 720px;
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+
 .container img { height: 450px; }
 
 .card { margin: 0px 20px; }
+
 .card ul { padding-left: 0px; }
+
 .card ul li { list-style-type: none; }
+
 .card ul li::before { content: url(assets/images/icon-list.svg); }
-.card ul li p { display: inline-block; line-height: 5px; padding-left: 10px; }
+
+.card ul li p {
+  display: inline-block;
+  line-height: 5px;
+  padding-left: 10px;
+}
+
 .card form { margin-top: 25px; }
+
 .card form * { margin-top: 15px; }
-.card form label { font-size: 13px; font-weight: 700; }
-.card form input { display: block; padding: 7px 30px; }
 
-dialog { height: 100vh; min-height: 100vh; width: 100vw; background-color: hsl(234, 29%, 20%); z-index: 10; position: fixed; inset: 0; border: none; }
+.card form label {
+  font-size: 13px;
+  font-weight: 700;
+}
 
-.success-modal { width: 400px; background-color: hsl(0, 0%, 100%); margin: 100px auto; padding: 25px 25px 25px 40px; border-radius: 15px; }
+.card form input {
+  display: block;
+  padding: 7px 30px;
+}
+
+dialog {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: hsl(234, 29%, 20%);
+  z-index: 10;
+  position: fixed;
+  inset: 0;
+  border: none;
+}
+
+.success-modal {
+  width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 100px auto;
+  padding: 25px 25px 25px 40px;
+  border-radius: 15px;
+}
+
 .success-modal p { margin: 30px 0px; }
 
 @media (max-width: 700px) {
-  body { margin: 0px; padding: 0px 0px 30px 0px; background-color: hsl(0, 0%, 100%); overflow-y: scroll; }
-  .container { margin: 0px; padding: 0px; flex-direction: column; width: 100vw; }
-  .container img { order: 1; object-fit: cover; height: 380px; border-radius: 10px; }
-  .card { order: 2; margin: 0px 20px; }
+  
+  body {
+    margin: 0px;
+    padding: 0px 0px 30px 0px;
+    background-color: hsl(0, 0%, 100%);
+    overflow-y: scroll;
+  }
+
+  .container {
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .container img {
+    order: 1;
+    object-fit: cover;
+    height: 380px;
+    border-radius: 10px;
+  }
+
+  .card {
+    order: 2;
+    margin: 0px 20px;
+  }
+
   .card ul li p { padding-left: 5px; }
-  dialog { margin: 0px; padding: 0px; background-color: hsl(0, 0%, 100%); overflow-y: clip; }
+
+  dialog {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 100%);
+    overflow-y: clip;
+  }
+  
   .success-modal { margin: 0px; }
 }
