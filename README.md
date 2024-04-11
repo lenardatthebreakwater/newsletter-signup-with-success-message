@@ -5,7 +5,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 ## Overview
 
 ### Links
-Live Site URL: [https://lenardatthebreakwater.github.io/newsletter-signup-with-success-message/newsletter_signup_with_success_message.html](https://lenardatthebreakwater.github.io/newsletter-signup-with-success-message/newsletter_signup_with_success_message.html)
+Live Site URL: [https://lenardatthebreakwater.github.io/newsletter-signup/newsletter_signup.html](https://lenardatthebreakwater.github.io/newsletter-signup/newsletter_signup.html)
 
 ### Screenshot
 ![Capture](https://github.com/lenardatthebreakwater/newsletter-signup-with-success-message/assets/142602437/b3646581-5ab1-4635-aeb5-b87139ecef14)
